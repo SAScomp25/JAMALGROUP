@@ -52,7 +52,7 @@ body {
   justify-items: center;
   align-content: center;
   margin-top: 40px;
-  background-image: url(../imags/Royal-img/3.png);
+  background-image: url(./imags/Royal-img/3.png);
   background-size: cover;
   border-radius: 20px;
 }
