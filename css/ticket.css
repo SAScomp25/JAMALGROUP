@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: 1520px 1755px;
+}
+
+/**************************************hero***********************************/
+.hero {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.hero-contacts {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 40px;
+}
+
+.hero-contant {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  font-family: "Rubik", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: #060072;
+}
+/**************************************form***********************************/
+/********************************form********************************/
+
+.form-container {
+  width: 90%;
+  height: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-items: center;
+  align-content: center;
+  margin-top: 40px;
+  background-image: url(/imags/ticket-img/form.png);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.form {
+  width: 90%;
+  height: auto;
+  justify-items: center;
+}
+
+.form form {
+  width: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #120c81c0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #120aace7;
+}
+
+label {
+  color: #ffd453;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+input,
+select {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ffd453;
+  border: none;
+}
+
+.btn {
+  color: white;
+  border: solid 2px white;
+  padding: 5px;
+  width: 70%;
+}
+
+.btn:hover {
+  border: solid 2px #e0e3ea;
+  margin-top: 10px;
+  color: #ffd453;
+}
+
+/******************************responsive********************************/
+
+@media (max-width: 780px) {
+  .hero-contacts {
+    gap: 20px;
+  }
+
+  .hero-contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-img {
+    height: auto;
+    width: 400px;
+  }
+
+  .hero-text {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 5px;
+  }
+
+  .form-container {
+    height: 600px;
+    background-image: url(/imags/ticket-img/form.png);
+    background-size: 500px 600px;
+    background-repeat: no-repeat;
+  }
+
+  .form form {
+    width: 85%;
+    height: auto;
+  }
+}

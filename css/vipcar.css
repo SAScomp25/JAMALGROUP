@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**************************hero section*************************/
+.hero-section {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 70px;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img img {
+  width: 500px;
+  height: auto;
+}
+
+.hero-text {
+  width: 60%;
+  height: auto;
+  color: #060072f9;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/**********************************contact for*************************************/
+.form-container {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 90%;
+  height: 500px;
+  background-image: url(/imags/vip-img/contactformimg.png);
+  background-size: cover;
+  align-content: center;
+  border-radius: 20px;
+}
+
+.form {
+  justify-items: center;
+}
+
+.form form {
+  width: 20%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: #120c81d8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #120aace7;
+}
+
+label {
+  color: #ffd453;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+input,
+select {
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ffd453;
+  border: none;
+}
+
+.btn {
+  color: white;
+  border: solid 2px white;
+  padding: 5px;
+  width: 70%;
+}
+
+.btn:hover {
+  border: solid 2px #e0e3ea;
+  margin-top: 10px;
+  color: #ffd453;
+}
+
+/****************select car***********************/
+
+.selectcar-container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.cards-container {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px #120c81;
+}
+
+.card-image {
+  width: 95%;
+  height: 180px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.card-image img {
+  width: 95%;
+}
+
+.cartype {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  color: #120c81;
+  text-shadow: 1px 0 15px #120c81cb;
+}
+
+.chars {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  color: #120c81;
+}
+
+.bages {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  color: #120c81;
+}
+
+.selectecar-btn {
+  width: 70%;
+  height: 40px;
+  border-radius: 10px;
+  border: solid 2px #120c81a0;
+  background: none;
+  font-family: "Rubik", sans-serif;
+  color: #120c81;
+  text-shadow: 0 0 5px #ffd453;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.counter-container {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  justify-items: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.counter-card {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+  border: #ffd453 4px solid;
+  box-shadow: 0 0 5px #120c81;
+  align-content: center;
+  padding: 10px;
+}
+
+.counter-title {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  color: #120c81;
+}
+
+.counter-number {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  color: #120c81;
+}
+
+/**********************phone***********************/
+
+@media (max-width: 780px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .hero-img img {
+    width: 300px;
+  }
+
+  .hero-text {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .form-container {
+    width: 80%;
+    height: 500px;
+  }
+
+  .form form {
+    width: 60%;
+  }
+
+  .btn {
+    width: 90%;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .counter-card {
+    width: 80%;
+  }
+}

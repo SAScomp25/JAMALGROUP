@@ -1,0 +1,190 @@
+body {
+  background-image: url(/imags/navandfooter/body.png);
+  background-size: 1520px 2600px;
+  background-repeat: no-repeat;
+}
+/******************navbar********************/
+.link {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #ffd453;
+}
+
+.link:hover {
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.navbar-nav {
+  gap: 7rem;
+}
+
+.nav-logo {
+  height: 2rem;
+}
+
+.navbar {
+  background: linear-gradient(45deg, #060072, #060072af, #060072e9) !important;
+  border-radius: 5px;
+  margin: 0.3rem 0.2rem;
+  margin-bottom: 7rem;
+  box-shadow: 0 0 10px #060072;
+}
+
+.navbar-toggler {
+  color: #ffd453;
+  background-color: #ffd453;
+}
+
+/*******************responev style*********************/
+@media (max-width: 780px) {
+  .navbar-collapse a {
+    text-shadow: 0 0 4px #060072de;
+  }
+
+  .mb-2,
+  .mb-lg-0 {
+    padding: 0.5rem;
+    gap: 10px 30px;
+  }
+
+  .nav-item {
+    border: solid 2px #06007251;
+    border-radius: 10px;
+    padding: 20px 60px;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    order: -1;
+  }
+
+  .navbar-toggler {
+    order: -2;
+  }
+}
+
+/**********************************fotter*************************************/
+.footer-container {
+  background: linear-gradient(45deg, #060072, #060072af, #060072e9);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  box-sizing: border-box;
+  align-items: center;
+  justify-items: center;
+  height: 9rem;
+}
+
+.footer-logo {
+  height: 10rem;
+  padding: 1rem;
+}
+
+.links-footer-con1,
+.links-footer-con2 {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.links-footer-con1 a,
+.links-footer-con2 a {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #ffd453;
+}
+
+.links-footer-con1 a:hover,
+.links-footer-con2 a:hover {
+  text-shadow: 0 0 10px #ffd453e2;
+  scale: 1.1;
+}
+
+.su-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.su-icon {
+  height: 2rem;
+}
+
+.su-container a:hover {
+  scale: 1.3;
+}
+
+.sas-container {
+  background: linear-gradient(45deg, #060072, #060072af, #060072e9);
+  padding: 1rem;
+  text-align: center;
+}
+
+.sas-text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.sas-link {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 5px #ffd453;
+}
+
+/******************************responsev******************************/
+@media (max-width: 780px) {
+  body {
+    background-image: none;
+    background-color: #0600721b;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .footer-logo {
+    height: 6rem;
+    padding: 0.1rem;
+  }
+
+  .links-footer-con1,
+  .links-footer-con2 {
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .links-footer-con1 a,
+  .links-footer-con2 a {
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ffd453;
+    text-shadow: 0 0 2px #060072;
+  }
+
+  .su-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin: 2rem;
+  }
+
+  .su-icon {
+    height: 1.5rem;
+  }
+}
