@@ -52,7 +52,7 @@ body {
   justify-items: center;
   align-content: center;
   margin-top: 40px;
-  background-image: url(/imags/Royal-img/3.png);
+  background-image: url(../imags/Royal-img/3.png);
   background-size: cover;
   border-radius: 20px;
 }
@@ -127,7 +127,6 @@ select {
 
   .form-container {
     height: 600px;
-    background-image: url(/imags/Royal-img/3.png);
     background-size: 500px 600px;
     background-repeat: no-repeat;
   }
